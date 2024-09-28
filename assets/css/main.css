@@ -3676,8 +3676,8 @@
 		#banner p {
 			color: rgba(255, 255, 255, 0.65);
 			font-size: 1.5em;
-			margin-left: 10em;
-			margin-right: 10em;
+			margin-left: 10rem;
+			margin-right: 10rem;
 		}
 
 		#banner video {
