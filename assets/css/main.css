@@ -3525,7 +3525,7 @@
 		width: 20em;
 		z-index: 10002;
 	}
-		#menu img{
+		#menu > ul.img{
 			align-content: center;
 		}
 
