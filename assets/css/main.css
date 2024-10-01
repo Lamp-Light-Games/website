@@ -3526,7 +3526,7 @@
 		z-index: 10002;
 	}
 		#menu img{
-			align-items: right;
+			align-content: center;
 		}
 
 		#menu > ul {
