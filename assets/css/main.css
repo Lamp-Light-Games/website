@@ -3524,10 +3524,7 @@
 		visibility: hidden;
 		width: 20em;
 		z-index: 10002;
-	}
-		#menu > ul.img{
-			align-content: center;
-		}
+	}		
 
 		#menu > ul {
 			margin: 0 0 1em 0;
@@ -3598,7 +3595,7 @@
 			}
 
 			#menu .close:hover {
-				color: #ffffff;
+				color: #dbdf07;
 			}
 
 			@media screen and (max-width: 736px) {
