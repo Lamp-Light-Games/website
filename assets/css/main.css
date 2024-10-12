@@ -2403,7 +2403,9 @@
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 100%;
+			height: auto;
+			padding-inline: .5em;
 		}
 
 			.image.left img, .image.right img {
@@ -2412,13 +2414,13 @@
 
 		.image.left {
 			float: left;
-			margin: 0 1.5em 1em 10em;
+			/* margin: 0 1.5em 1em 10em; */
 			top: 0.25em;
 		}
 
 		.image.right {
 			float: right;
-			margin: 0 0 1em 1.5em;
+			/* margin: 0 0 1em 1.5em; */
 			top: 0.25em;
 		}
 
@@ -2639,7 +2641,8 @@
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
+		padding-top: 2em;
 	}
 
 	header p {
@@ -3381,12 +3384,11 @@
 		height: 3.25em;
 		left: 0;
 		line-height: 3.25em;
-		position: fixed;
-		text-align: right;		
+		position: fixed;		
 		top: 0;
 		width: 100%;
 		z-index: 10001;
-	}
+	}	
 
 		#header > h1 {
 			color: #ffffff;
@@ -3418,9 +3420,9 @@
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
-			display: inline-block;
+			display: inline;
 			padding: 0 0.75em;
-			color: inherit;
+			color: #dbdf07;
 			text-decoration: none;
 		}
 
@@ -3521,7 +3523,7 @@
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
-		padding: 3em 2em;
+		padding: 3em .5em;
 		position: fixed;
 		right: 0;
 		top: 0;
@@ -3633,7 +3635,8 @@
 	{
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
-		-ms-flex-align: center;		
+		-ms-flex-align: center;
+		padding-top: 5em;		
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3645,14 +3648,14 @@
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
-		justify-content: center;
+		justify-content: space-evenly;
 		flex-direction: column;				
 		border-top: 0;
-		min-height: 60vh;
-		height: 60vh !important;
+		min-height: auto;
+		height: auto !important;
 		position: relative;
 		text-align: center;
-		overflow: hidden;
+		overflow: auto;
 	}
 
 	#learning .inner
@@ -3678,7 +3681,8 @@
 
 	#learning h2
 	{
-		margin-left: 10em;
+		margin-left: 6em;
+		margin-right: 6em;
 	}
 
 	#learning p
@@ -3687,6 +3691,7 @@
 		font-size: 1.5em;
 		margin-left: 10em;
 		margin-right: 10em;
+		text-align: left;
 	}
 
 /* Banner */
