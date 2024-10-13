@@ -3629,14 +3629,14 @@
 			}
 
 		}
-/* Learning Layout */
 
-	#learning
-	{
+/* Banner */
+
+	#banner {
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding-top: 5em;		
+		padding-top: 5em;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3649,80 +3649,13 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: space-evenly;
-		flex-direction: column;				
+		flex-direction: column;
 		border-top: 0;
 		min-height: auto;
 		height: auto !important;
 		position: relative;
 		text-align: center;
 		overflow: auto;
-	}
-
-	#learning .inner
-	{
-		-moz-transform: scale(1.0);
-		-webkit-transform: scale(1.0);
-		-ms-transform: scale(1.0);
-		transform: scale(1.0);
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
-		opacity: 1;
-		position: relative;
-		z-index: 2;		
-	}
-
-	#learning h1
-	{
-		font-size: 4em;
-		margin-bottom: .25em;
-	}
-
-	#learning h2
-	{
-		margin-left: 6em;
-		margin-right: 6em;
-	}
-
-	#learning p
-	{
-		color: rgba(255, 255, 255, 0.65);
-		font-size: 1.5em;
-		margin-left: 10em;
-		margin-right: 10em;
-		text-align: left;
-	}
-
-/* Banner */
-
-	#banner {
-		display: -ms-flexbox;
-		-ms-flex-pack: center;
-		-ms-flex-align: center;
-		padding: 8em 0 6em 0;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		background-image: url("../../images/under_construction.jpg");
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-		border-top: 0;
-		min-height: 100vh;
-		height: 100vh !important;
-		position: relative;
-		text-align: center;
-		overflow: hidden;
 	}
 
 		#banner .inner {
@@ -3744,11 +3677,16 @@
 			margin-bottom: .25em;
 		}
 
+		#banner h2 {
+			margin: 0 6em;
+		}
+
 		#banner p {
 			color: rgba(255, 255, 255, 0.65);
 			font-size: 1.5em;
 			margin-left: 10em;
 			margin-right: 10em;
+			text-align: left;
 		}
 
 		#banner video {
