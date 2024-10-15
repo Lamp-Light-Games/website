@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Broadcast by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 
 <head>
@@ -18,66 +13,106 @@
 <body>
     <!-- Header -->
     <header id="header">
-        <span>
-            <img align="left" src="images/LogoIcon.png" style="max-width:100%;height:auto;">
-            <img align="left" src="images/1 Line Logo Text.png" style="max-width:100%;height:auto;">
-        </span>
-        <a href="#menu"><img align="right" src="images/MenuIcon.png" style="max-width:100%;height:auto;"></a>
-    </header>
+        <a href="index.html"><img class="image left" src="images/LogoIcon.png">
+            <img class="image left" src="images/1 Line Logo Text.png"></a>
 
-    <!-- Nav -->
-    <nav id="menu">
-        <ul class="links">
-            <li><a href="index.html"><img src="images/Home.png"></a></li>
-            <li><a href="games.html"><img src="images/Games.png"></a></li>
-            <li><a href="learning.html"><img src="images/Learning.png"></a></li>
-            <li><a href="about.html"><img src="images/About.png"></a></li>
-            <li><a href="contact.html"><img src="images/Contact.png"></a></li>
-        </ul>
-    </nav>
+        <a href="about.html"><img class="image right" src="images/About.png"></a>
+        <a href="learning.html"><img class="image right" src="images/Learning.png"></a>
+        <a href="games.html"><img class="image right" src="images/Games.png"></a>
+    </header>    
 
     <!-- Banner -->
-    <!--
-    To use a video as your background, set data-video to the name of your video without
-    its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
-    formats to work correctly.
--->
-    <section id="banner" data-video="images/banner">
+    <section id="banner">
         <div class="inner">
-            <header>
-                <h1>Learning Resources</h1>
-            <p>Are you interested in beginning your own gamedev journey? Perhaps there's a story you wish to tell
-                or an idea that you would love to introduce to the world! It's not impossible and resources for learning
-                have never been more accessable. Below are some of the more well known resources that you can use to get
-                started on your journey.
-            </p>                
-            </header>
+            <h1>Learning Resources</h1>
+            <p style="text-align: left;">Are you interested in beginning your own gamedev journey? Perhaps there's a
+                story you wish to tell or an idea that you would love to introduce to the world! It's not impossible
+                and resources for learning have never been more accessable. Below are some of the more well known
+                resources that you can use to get started on your journey.
+            </p>
         </div>
-    </section>    
-
-    <!-- Unity Section -->
-    <section>
-        <h2>Unity</h2>
-        <p>Content and links are work in progress.</p>
     </section>
 
-    <!-- Unreal Section -->
-    <section>
-        <h2>Unreal</h2>
-        <p>Content and links are work in progress.</p>
+    <section style="margin: 0 20em; padding-top: 5em;">
+        <!-- Unity Article -->
+        <div>
+            <img class="image left" style="display:block; max-width:20%; height: auto;"
+                src="images/Unity Logo White.png">
+            <div style="float: left; clear: both;">
+                <article class="special">
+                    <p>Unity is a highly popular game engine known for its ease of use, making it ideal for beginners and experienced developers alike.
+                        It supports a wide range of platforms, including PC, consoles, mobile devices, and AR/VR, allowing for versatile game development.
+                        Unity’s asset store provides a vast library of ready-to-use assets, which can significantly speed up the development process.
+                        Additionally, Unity offers robust support for both 2D and 3D game development, and its active community ensures that developers can
+                        find plenty of resources and support. To get started with Unity, you can visit their official 
+                        <a href="https://unity.com/learn/get-started">Getting Started page.</a></p>
+                </article>
+            </div>
+        </div>
+
+        <!-- Unreal Section -->
+        <div>
+            <img class="image right" style="display:block; max-width:30%; height: auto;"
+                src="images/UE Logo White Horizontal.png">
+            <div style="float: left; clear: both;">
+                <article class="special">
+                    <p>Unreal Engine is renowned for its powerful and feature-rich capabilities, making it a top choice for creating visually stunning and 
+                        mmersive games. It supports a wide range of platforms, including PC, consoles, mobile devices, and VR/AR, offering great flexibility
+                        for developers. Unreal Engine’s Blueprint visual scripting system allows even those with limited programming experience to create
+                        complex game mechanics. Additionally, it boasts extensive documentation and a strong community, ensuring ample resources and support
+                        for developers. To get started with Unreal Engine, you can visit their official
+                        <a href="https://www.unrealengine.com/en-US/unreal-engine-5">Getting Started page.</a></p>
+                </article>
+            </div>
+        </div>
+
+        <!-- Godot Section -->
+        <div>
+            <img class="image left" style="display:block; max-width:20%; height: auto;"
+                src="images/Godot Logo Color Horizontal.svg">
+            <div style="float: left; clear: both;">
+                <article class="special">
+                    <p>Godot Engine is a versatile, open-source game engine that excels in both 2D and 3D game development. Its node-based architecture
+                        simplifies the creation of complex scenes and game mechanics. Godot supports multiple programming languages, including GDScript, C#,
+                        and C++, making it accessible to a wide range of developers. The engine’s lightweight design ensures efficient performance, and its
+                        dedicated 2D engine provides a streamlined workflow for 2D game development. Additionally, Godot’s active community and extensive
+                        documentation offer ample resources for learning and troubleshooting. To get started with Godot, you can visit their official
+                        <a href="https://docs.godotengine.org/en/stable/getting_started/step_by_step/index.html">Getting Started page.</a></p>
+                </article>
+            </div>
+        </div>
+
+        <!-- GameDev.tv Section -->
+        <div>
+            <img class="image right" style="display:block; max-width:20%; height: auto;"
+                src="images/GameDev Logo Color Horizontal.png">
+            <div style="float: left; clear: both;">
+                <article class="special">
+                    <p>GameDev.tv courses are highly regarded for their comprehensive and well-structured content, making them ideal for both beginners and
+                        experienced developers. The courses offer a mix of video lessons, written explanations, and practical coding exercises, ensuring a
+                        thorough understanding of game development concepts. Instructors are experienced game developers who provide valuable insights and
+                        guidance throughout the learning process. Additionally, GameDev.tv maintains an active community and offers continuous updates to keep
+                        the courses relevant with the latest industry standards. To explore their offerings, you can visit the official
+                        <a href="https://www.gamedev.tv/">GameDev.tv website.</a></p>
+                </article>
+            </div>
+        </div>
     </section>
 
-    <!-- Godot Section -->
-    <section>
-        <h2>Godot</h2>
-        <p>Content and links are work in progress.</p>
-    </section>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="copyright">
+            <h5>Find or contact us at the links below</h5>
+            <ul class="icons">
+                <li><a href="mailto:contact.us@lamplightgames.co" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            </ul>
+        </div>
+    </footer>
 
-    <!-- GameDev.tv Section -->
-    <section>
-        <h2>GameDev.tv</h2>
-        <p>Content and links are work in progress.</p>
-    </section>
+    <div class="copyright">
+        <p>Copyright Lamp Light Games 2021 - 2024</p>
     </div>
 
     <!-- Scripts -->
@@ -87,10 +122,3 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
-
-<div class="copyright">
-    <ul>
-        <li>Made with: <a href="https://templated.co/">Templated.co</a></li>
-        <li><a href="https://www.vecteezy.com/free-vector/earth">Earth Vectors by Vecteezy</a></li>
-    </ul>
-</div>
